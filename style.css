@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgb(27, 23, 26);
+    width: 100%;
+    height: 2000px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.dice{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+
+.player{
+    width: 150px;
+    height: 150px;
+}
+
+.res-container{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: column;
+    padding-top: 50px;
+}
+
+.butn{
+    padding-top: 30px;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(113, 22, 22);
+    border-radius: 6px;
+    opacity: 1;
+    transition: 0.3s;
+    font-family: 'Roboto Slab', serif;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
+.p1{
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 50px;
+    color: rgb(178, 80, 104);
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+}
+
+.p2{
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 80px;
+    color: rgb(178, 80, 104);
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+}
+
+#res-1{
+    color:rgb(178, 80, 104);
+    font-size: x-large;
+}
+
+#res-2{
+    color: rgb(178, 80, 104);
+    font-size: x-large;
+}
+
+.win{
+    text-align: center;
+    font-size: 500%;
+    color: rgb(242, 235, 233);
+    padding-top: 80px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+#winner{
+    text-shadow: 2px 2px purple;
+    height: 800px;
+    animation: slideUp ease 5s forwards 0.5s;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://colorhunt.co/palette/4c3a51774360b25068e7ab79">
+    
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img id="dice-1" class="dice" src="./assets/dice_1.png" alt="">
+            <img id="dice-2" class="dice" src="./assets/dice_1.png" alt="">
+        </div>
+        <div class="butn">
+            <button class="button" id="btn">Roll Dice</button>
+        </div>
+        <div class="res-container">
+            <div class="p1">
+                <img id="p1img" class="player" src="./assets/player_1.jpg" alt="Player 1">
+                <h1>Player 1</h1>
+                <div id="res-1">00</div>
+            </div>
+            <div class="p2">
+                <img id="p2img" class="player" src="./assets/player_2.jpg" alt="Player 2">
+                <h1>Player 2</h1>
+                <div id="res-2">00</div>
+            </div>
+        </div>
+        <div class="win">
+            <div id="winner"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
